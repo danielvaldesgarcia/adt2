@@ -11,11 +11,11 @@ class ConexionBD {
     static
     final
     String URL =
-            "jdbc:mysql://localhost:3306/adt-bd?serverTimezone=UTC"
+            "jdbc:mysql://localhost:3308/adt?serverTimezone=UTC"
             ;
     // TODO: Comprobar usuario y contraseña del servidor MySQL
     private static final String USUARIO = "root";
-    private static final String CONTRASENA = "CasaMorada05";
+    private static final String CONTRASENA = "root";
     // TODO: Crear método para conectar con la base de datos
     public static Connection conectar() throws SQLException, ClassNotFoundException {
         Connection conexion = null;
