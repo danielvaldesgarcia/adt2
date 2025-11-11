@@ -1,0 +1,83 @@
+package com.adt.model;
+
+public class Empresa {
+
+    private int idEmpresa;
+    private String nombre;
+    private String vector;
+    private String telefono;
+    private String email;
+    private String direccion;
+
+
+    public int getIdEmpresa() {
+        return idEmpresa;
+    }
+
+    public void setIdEmpresa(int idEmpresa) {
+        this.idEmpresa = idEmpresa;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getVector() {
+        return vector;
+    }
+
+    public void setVector(String vector) {
+        this.vector = vector;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public Empresa(int idEmpresa, String nombre, String vector, String telefono, String email, String direccion) {
+        this.idEmpresa = idEmpresa;
+        this.nombre = nombre;
+        this.vector = vector;
+        this.telefono = telefono;
+        this.email = email;
+        this.direccion = direccion;
+    }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "idEmpresa=" + idEmpresa +
+                ", nombre='" + nombre + '\'' +
+                ", vector='" + vector + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", email='" + email + '\'' +
+                ", direccion='" + direccion + '\'' +
+                '}';
+    }
+
+
+}
